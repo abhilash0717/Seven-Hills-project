@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         SystemClock.sleep(3000);
-        Intent loginIntent = new Intent(MainActivity.this,loginActivity.class);
+        Intent loginIntent = new Intent(MainActivity.this,RegisterActivity.class);
         startActivity(loginIntent);
         finish();
     }
